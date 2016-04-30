@@ -30,16 +30,16 @@ const KCYN = "\x1B[36m"
 const KWHT = "\x1B[37m"
 const KRESET = "\033[0m"
 
-/* const Debugging can be set in production without any security risks, it enables debugging log-output.
+/* var Debugging can be set in production without any security risks, it enables debugging log-output.
  */
-const Debugging debug = true
+var Debugging debug = true
 
-/* const Develop SHOULD NEVER EVER be set in Prod, it is used to disable security-relevant features in the using library
+/* var Develop SHOULD NEVER EVER be set in Prod, it is used to disable security-relevant features in the using library
  */
-const Develop = true
-const v verbose = true
-const i info = true
-const l lg = true
+var Develop = true
+var v verbose = true
+var i info = true
+var l lg = true
 
 type debug bool
 type verbose bool
